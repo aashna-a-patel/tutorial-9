@@ -1,0 +1,16 @@
+---
+title: "Five Parameters"
+author: "Aashna"
+format: html
+execute: 
+  echo: false
+---
+
+```{r}
+#| label: setup
+#| message: false
+library(primer.data)
+library(tidyverse)
+```
+
+We are using the governors dataset from the study "Longevity Returns to Political Office" to explore how the number of years lived after an election (lived_after) differs between male and female gubernatorial candidates. Our goal is to understand the relationship between candidates' sex and their post-election longevity.
